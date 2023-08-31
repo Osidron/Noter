@@ -14,15 +14,15 @@ namespace Noter
     {
         [Key]
         public int ID { get; set; }
-        public string title;
-        public string text;
+        public string? title;
+        public string? text;
     }
 
 
     public class ApplicationContext : DbContext
     {
 
-        public DbSet<note_data> noteList { get; set; } = null!;
+        public DbSet<note_data?> noteList { get; set; }
 
         public ApplicationContext()
         {
