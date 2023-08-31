@@ -83,7 +83,7 @@ namespace Noter
                                     }
                                     else
                                     {
-                                        if (ID == -1) Console.WriteLine("Вы покинули программу");
+                                        if (ID == -1) Console.WriteLine("Вы покинули режим просмотра заметок");
                                         else
                                         {
                                             Console.WriteLine("Номер был введен неверно, либо заметки с таким номером не существует");
